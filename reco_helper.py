@@ -22,3 +22,6 @@ def reco(title):
     '''
     id1=index_finder(title)
     return print_recommendations(id1)
+
+if __name__=="__main__":
+   reco('fight club')
